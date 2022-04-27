@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Pizza</title>
+</head>
+<body>
+      <!-- ========HTML JS START====== -->
+  <section class="section pb-5">
+    <div class="container mt-4">
+      <h2 class="text-center text">Pitsa buyurtma qilish</h2>
+
+      <div class="row">
+    <!-- ==========How bread======== -->
+        <div class="col col-12 col-md-8 col-lg-4 mt-4 how">
+          <form class="form" action="https://echo.htmlacademy.ru" method="GET" id="form-id">
+
+            <fieldset>
+              <legend class="fw-bold mb-2">Noni qanday bo`lsin?</legend>
+              <select class="select form-select" name="Bread-thinkness">
+
+              </select>
+            </fieldset>
+            <!-- ===========Pizza volume========== -->
+            <fieldset class="mt-4">
+              <legend class="fw-bold mb-2">Kattaligi</legend>
+              <div class="radio">
+
+              </div>
+            </fieldset>
+
+            <fieldset class="mt-4">
+              <legend class="fw-bold mb-2">Ustiga nima solaylik?</legend>
+              <div class="js-list row">
+
+              </div>
+
+            </fieldset>
+
+            <fieldset class="mt-4">
+              <legend class="fw-bold mb-2">Qo`shimchalar</legend>
+              <div class="js-list-adds row">
+
+              </div>
+
+            </fieldset>
+          </form>
+        </div> 
+
+        <div class="d-md-none mt-5 bg-dark line"></div>
+        <!-- =========pizza width and height============ -->
+        <div class="col col-12 col-md-4 col-lg-4 mt-4 mt-md-4">
+          <p class="fw-bold">Non:<span class="js-bread-type fw-normal"></span></p>
+          <p class="fw-bold">Kattaligi:<span class="js-bread-size fw-normal">25sm</span></p>
+          <p class="fw-bold mb-0">Ustida:</p>
+          <ul class="step__list">
+
+          </ul>
+          <p class="fw-bold mb-0">Qo`shimcha:</p>
+          <ul class="choose-list">
+
+          </ul>
+          <button class="btn btn-danger" type="submit" form="form-id">Buyurtma berish</button>
+        </div> 
+
+      </div>
+    </div>
+  </section>
+  <script src="./js/main.js"></script>
+</body>
+</html>
